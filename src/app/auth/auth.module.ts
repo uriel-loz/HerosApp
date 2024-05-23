@@ -9,7 +9,7 @@ import { RegisterComponent } from './pages/register/register.component';
 
 @NgModule({
   declarations: [
-    // LayoutComponent
+    LayoutComponent,
     LoginComponent,
     RegisterComponent
   ],
