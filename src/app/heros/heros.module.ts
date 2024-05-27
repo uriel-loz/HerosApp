@@ -7,6 +7,7 @@ import { ListComponent } from './pages/list/list.component';
 import { NewHeroComponent } from './pages/new-hero/new-hero.component';
 import { SearchComponent } from './pages/search/search.component';
 import { LayoutComponent } from './layout/layout.component';
+import { MaterialModule } from '../material/material.module';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { LayoutComponent } from './layout/layout.component';
   ],
   imports: [
     CommonModule,
-    HerosRoutingModule
+    HerosRoutingModule,
+    MaterialModule,
   ]
 })
 export class HerosModule { }
