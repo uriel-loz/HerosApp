@@ -8,6 +8,7 @@ import { NewHeroComponent } from './pages/new-hero/new-hero.component';
 import { SearchComponent } from './pages/search/search.component';
 import { LayoutComponent } from './layout/layout.component';
 import { MaterialModule } from '../material/material.module';
+import { CardComponent } from './components/card/card.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { MaterialModule } from '../material/material.module';
     HeroComponent,
     ListComponent,
     NewHeroComponent,
-    SearchComponent
+    SearchComponent,
+    CardComponent
   ],
   imports: [
     CommonModule,
