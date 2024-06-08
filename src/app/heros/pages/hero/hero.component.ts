@@ -5,7 +5,7 @@ import { switchMap } from 'rxjs';
 import { Hero } from '../../interfaces/hero.interface';
 
 @Component({
-  selector: 'app-hero',
+  selector: 'heros-hero',
   templateUrl: './hero.component.html',
   styleUrls: ['./hero.component.css']
 })
