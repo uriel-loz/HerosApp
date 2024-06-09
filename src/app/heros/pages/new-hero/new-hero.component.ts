@@ -12,4 +12,9 @@ export class NewHeroComponent implements OnInit {
   ngOnInit() {
   }
 
+  public publishers = [
+    { id: 'DC Comics', desc: 'DC - Comics' },
+    { id: 'Marvel Comics', desc: 'Marvel - Comics' },
+  ];
+
 }
