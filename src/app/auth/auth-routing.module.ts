@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { LayoutComponent } from './layout/layout.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
+import { PublicGuard } from './guards/public.guard';
 
 const routes: Routes = [
   {
@@ -11,7 +12,8 @@ const routes: Routes = [
     children: [
       {
         path: 'login',
-        component: LoginComponent
+        component: LoginComponent,
+        canActivate: [PublicGuard]
       },
       {
         path: 'new-account',
